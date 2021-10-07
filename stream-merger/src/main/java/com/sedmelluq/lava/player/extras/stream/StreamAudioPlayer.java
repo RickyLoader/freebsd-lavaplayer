@@ -286,9 +286,9 @@ public class StreamAudioPlayer implements AudioPlayer {
       dispatchEvent(new TrackExceptionEvent(StreamAudioPlayer.this, track, exception));
     }
 
-    @Override
+   /* @Override
     public void onTrackStuck(AudioPlayer player, AudioTrack track, long thresholdMs) {
       dispatchEvent(new TrackStuckEvent(StreamAudioPlayer.this, track, thresholdMs));
-    }
+    } */
   }
 }
